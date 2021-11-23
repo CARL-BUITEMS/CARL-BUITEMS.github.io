@@ -6,6 +6,38 @@ Author URL: http://webthemez.com
 /*************************
 *******Typography******
 **************************/
+
+/*status bar css */
+/* (A) FIXED WRAPPER */
+.hwrap {
+	
+  overflow: hidden; /* HIDE SCROLL BAR */
+  
+}
+ 
+/* (B) MOVING TICKER WRAPPER */
+.hmove { display: flex;}
+
+/* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
+.hitem {
+	;
+  flex-shrink: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+ 
+/* (D) ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
+/* 4 ITEMS -400%, CHANGE THIS IF YOU ADD/REMOVE ITEMS */
+@keyframes tickerh {
+  0% { transform: translate3d(100%, 0, 0); }
+  100% { transform: translate3d(-400%, 0, 0); }
+}
+.hmove { animation: tickerh linear 40s infinite; }
+.hmove:hover { animation-play-state: paused; }
+/*end*/
+
 body {
   padding-top: 100px;
   background: #fff;
@@ -362,13 +394,22 @@ color: #FFF;
 #services, #features {
   padding: 100px 0 75px;
 }
+#equipment .media.service-box.a{
+  margin: 25px 0 36px;
+  padding: 20px;
+  padding-left: 86px;
+  position: relative;
+  
+  border-radius: 20px 20px 20px 20px;
+  border: #F9690B 2px solid;
+}
 .media.service-box {
   margin: 25px 0 36px;
   padding: 20px;
   padding-left: 86px;
   position: relative;
   background: #FFFFFF;
-  border-radius: 0 0 20px 0;
+  border-radius: 20px 20px 20px 20px;
   border: #F9690B 2px solid;
 }
 .media.service-box .pull-left {
@@ -582,6 +623,40 @@ background: transparent;
 border: 1px solid rgba(255, 255, 255, 0.2);
 margin: 0 8px;
 }
+
+#domain {
+  padding: 100px 0;
+  background: #07080A;
+  background: url('../images/img2.jpg');    
+  background-size: cover;  };
+}
+
+#domain .column-title{
+color:#fff;
+}
+#domain p{
+color:#fff;
+}
+#domain .listarrow li{
+color:#fff;
+}
+#equipment {
+  padding: 100px 0;
+  background: #07080A;
+  background: url('../images/img2.jpg');    
+  background-size: cover;  };
+}
+
+#equipment .column-title{
+color:#fff;
+}
+#equipment p{
+color:#fff;
+}
+#equipment .listarrow li{
+color:#fff;
+}
+
 #about {
   padding: 100px 0;
   background: #07080A;
@@ -608,8 +683,8 @@ color:#fff;
   margin: 0;
 }
 #our-team .team-member .team-info { 
-  background: #222222;
-  color: #BBBBBB;
+  background: #fffff;
+  color: #;
   padding: 7px 0;
   border-top: 2px solid #fff;
 } 
@@ -623,7 +698,7 @@ color:#fff;
   margin: 0;  
   -webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
     transition: height 1s;
-  background: #F4F4F4;
+  background: #
   padding: 6px 0 6px;
 }
 #our-team .social-icons > li {
@@ -878,6 +953,7 @@ width: 100px;
   color: #fff;
   background: #222222;
 }
+
 #footer a {
   color: #fff;
 }
@@ -945,4 +1021,11 @@ margin: 9px auto;
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
 padding: 7px 0 0;
 }
+}
+/**** added stuff ******/
+img.pp {
+    float: left;
+    width:  400px;
+    height: 500px;
+    object-fit: cover;
 }
