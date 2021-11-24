@@ -1,4 +1,4 @@
-
+Allow: <http-methods>
 <?php
 
 
