@@ -218,7 +218,7 @@ color: #FFFFFF;
 }
 .navbar.navbar-default .navbar-brand {
   height: auto;
-  padding: 10px 15px 1px;
+  padding: 5px 10px 1px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
 color: #F8680D;
@@ -596,30 +596,30 @@ padding:0px;
 transition: all .2s ease-in-out;
 margin-bottom: 15px;
 }
-#testimonial {
+#achievements {
   background: #222222;
   background-size: cover;
   padding: 100px 0;
   color: #fff;
-  background: url('../images/img3.jpg');
+  background: url('../images/img2.jpg');
   background-size: cover;
 }
-#testimonial h2{
+#achievements h2{
 color:#fff;
 }
-#testimonial h4 {
+#achievements h4 {
   color: #fff;
   margin-bottom: 8px;
 }
-#testimonial small {
+#achievements small {
   display: block;
   margin-bottom: 10px;
   color: rgba(255, 255, 255, 0.7);
 }
-#testimonial .btns {
+#achievements .btns {
   margin-top: 10px;
 }
-#carousel-testimonial a.btn.btn-primary.btn-sm {
+#carousel-achievements a.btn.btn-primary.btn-sm {
 background: transparent;
 border: 1px solid rgba(255, 255, 255, 0.2);
 margin: 0 8px;
