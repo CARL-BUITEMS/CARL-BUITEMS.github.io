@@ -8,7 +8,7 @@ Author URL: http://webthemez.com
 **************************/
 
 
-/*status bar css */
+/*for the news status bar css */
 /* (A) FIXED WRAPPER */
 .hwrap {
 	
@@ -161,7 +161,7 @@ ul.nostyle {
 ul.nostyle i {
   color: #45aed6;
 }
-.scaleIn {header
+.scaleIn {
   -webkit-animation-name: scaleIn;
   animation-name: scaleIn;
 }
@@ -220,7 +220,7 @@ color: #FFFFFF;
 }
 .navbar.navbar-default .navbar-brand {
   height: auto;
-  padding: 5px 10px 1px;
+  padding: 10px 15px 1px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
 color: #F8680D;
@@ -412,7 +412,7 @@ color: #FFF;
   padding-left: 86px;
   position: relative;
   background: #FFFFFF;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 0 0  20px 0;
   border: #F9690B 2px solid;
 }
 .media.service-box .pull-left {
@@ -482,6 +482,7 @@ padding-top: 10px;
 }
 #portfolio .portfolio-item {
   width: 24.9%;
+	
   float: left;
   padding: 8px;
   -webkit-box-sizing: border-box;
@@ -531,6 +532,10 @@ padding-top: 10px;
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.53);
 }
+#portfolio .portfolio-item .portfolio-item-inner img{
+height: 200px;	
+}
+
 #portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
 }
@@ -687,7 +692,7 @@ color:#fff;
 }
 #our-team .team-member .team-info { 
   background: #fffff;
-  color: #;
+ 
   padding: 7px 0;
   border-top: 2px solid #fff;
 } 
@@ -701,7 +706,6 @@ color:#fff;
   margin: 0;  
   -webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
     transition: height 1s;
-  background: #
   padding: 6px 0 6px;
 }
 #our-team .social-icons > li {
@@ -987,8 +991,9 @@ padding: 20px 0;
 }
 }
 .form-control {
-  box-shadow: none;
+
   -webkit-box-shadow: none;
+	  box-shadow: none;
 }
 @media only screen and (max-width: 480px) {
 #hero-banner h2 {
