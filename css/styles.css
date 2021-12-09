@@ -211,6 +211,7 @@ background: rgb(249, 105, 14);
 color: #FFFFFF;
 }
 .navbar.navbar-default {
+	
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
@@ -221,6 +222,9 @@ color: #FFFFFF;
 .navbar.navbar-default .navbar-brand {
   height: auto;
   padding: 5px 10px 1px;
+}
+.navbar-default .navbar-nav>li{
+	font-size: 10px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
 color: #F8680D;
@@ -394,6 +398,11 @@ color: #FFF;
 #features .media.service-box:first-child {
   margin-top: 80px;
 }
+#services{
+	 background-size: cover;
+	background-image: url('../images/img2.jpg');
+	
+}
 #services, #features {
   padding: 100px 0 75px;
 }
@@ -450,8 +459,7 @@ padding-top: 10px;
 #portfolio {
   padding: 100px 0;
   background: #FFFFFF;
-  background: url('../images/img4.jpg');
-  background-size: cover;
+ 
 }
 #portfolio .portfolio-filter {
   list-style: none;
@@ -668,17 +676,17 @@ color:#fff;
 #about {
   padding: 100px 0;
   background: #07080A;
-  background: url('../images/img2.jpg');    
+ background-color: #FFFEF6;    
   background-size: cover;  };
 }
 #about .column-title{
-color:#fff;
+color:#0000;
 }
 #about p{
-color:#fff;
+color:#0000;
 }
 #about .listarrow li{
-color:#fff;
+color:#0000;
 }
 /*Team*/ 
 #our-team {
@@ -850,6 +858,8 @@ margin: 0;
 }
 #pricing {
   padding: 100px 0 70px;
+	 background: url('../images/img4.jpg');
+  background-size: cover;
 }
 #pricing ul.pricing {
   list-style: none;
@@ -858,6 +868,7 @@ margin: 0;
   border: 1px solid #D0D0D0; 
   padding: 8px;
   text-align: center;
+	
   background: #B8B8B8;
 }
 #pricing ul.pricing li {
